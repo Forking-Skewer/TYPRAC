@@ -10,6 +10,8 @@ print("It'll help to make your practice better.")
 msvcrt.getch()
 print("You can stop anytime by pressing '0'")
 msvcrt.getch()
+
+
 A = 'qwertyuiop'
 B = 'asdfghjkl'
 C = 'zxcvbnm'
@@ -62,7 +64,7 @@ def f(X):
         if n == r :
             s = s + 1
         if n != r and n != '0' :
-            if n == 'y':
+            if n == 'y' and r == 'y':
                 pass
             else :
                 print("wrong")
